@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/birthday-surprise/static/css/main.3e141820.css",
+    "main.js": "/birthday-surprise/static/js/main.1cf198db.js",
+    "static/js/453.9c2b4894.chunk.js": "/birthday-surprise/static/js/453.9c2b4894.chunk.js",
+    "static/media/music.wav": "/birthday-surprise/static/media/music.ca88df9960a52132936c.wav",
+    "static/media/cover.jpg": "/birthday-surprise/static/media/cover.8569744534b1371f82e6.jpg",
+    "static/media/7.jpg": "/birthday-surprise/static/media/7.27fd6ee30eb0c60d5e66.jpg",
+    "static/media/1.jpg": "/birthday-surprise/static/media/1.6f355bba9998bb401500.jpg",
+    "static/media/4.jpg": "/birthday-surprise/static/media/4.782683da24d6a56eee2e.jpg",
+    "static/media/6.jpg": "/birthday-surprise/static/media/6.5e9ebf0da6050fe49ef7.jpg",
+    "static/media/2.jpg": "/birthday-surprise/static/media/2.f1343554e6fd68687867.jpg",
+    "static/media/8.jpg": "/birthday-surprise/static/media/8.e24989b94143da5a2de1.jpg",
+    "static/media/5.jpg": "/birthday-surprise/static/media/5.8e49ebc3feffa05fd949.jpg",
+    "static/media/10.jpg": "/birthday-surprise/static/media/10.575c4c6a215d3718ea99.jpg",
+    "static/media/3.jpg": "/birthday-surprise/static/media/3.c1831bc9bd9c34422c94.jpg",
+    "static/media/9.jpg": "/birthday-surprise/static/media/9.81aa319aaa1529ba8bd3.jpg",
+    "index.html": "/birthday-surprise/index.html",
+    "main.3e141820.css.map": "/birthday-surprise/static/css/main.3e141820.css.map",
+    "main.1cf198db.js.map": "/birthday-surprise/static/js/main.1cf198db.js.map",
+    "453.9c2b4894.chunk.js.map": "/birthday-surprise/static/js/453.9c2b4894.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3e141820.css",
+    "static/js/main.1cf198db.js"
+  ]
+}
