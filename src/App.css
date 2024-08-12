@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:wght@100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-family: "Inter", sans-serif;
+  min-height: 100vh;
+  height: 100%;
+  display: flex;
+}
+
+body{
+  width: 100%;
+  min-height: 100vh;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.content{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #1a1a1a;
+}
+
+.images{
+  width: 400px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.img-reverse{
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
+
+.images .img{
+  width: 140px;
+  background-color: rgb(255, 255, 255);
+  margin: 10px;
+  border-radius: 10px;
+  margin: 20px 0;
+  outline: none;
+
+}
+
+.img.img1{
+  transform: rotate(10deg);
+  
+}
+
+.img.img2{
+  
+  margin-right: 30px;
+}
+
+.img.img3{
+  transform: rotate(-10deg);
+  
+}
+
+.img.img4{
+  transform: rotate(-10deg);
+  
+}
+
+.img.img5{
+  
+  margin-left: 30px;
+}
+
+.img.img6{
+  transform: rotate(10deg);
+  
+}
+
+.player{
+  width: 400px;
+  height: 600px;
+  padding: 25px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  border-top: 1px solid rgb(69, 69, 69);
+  border-left: 1px solid rgba(63, 63, 63, 0.7);
+  border-right: 1px solid rgb(63, 63, 63, 0.7);
+  border-bottom: 1px solid rgb(80, 80, 80, 0.7);
+  background: rgb(52,55,62);
+  background: linear-gradient(180deg, rgba(52,55,62,1) 0%, rgba(25,26,31,1) 100%);
+}
+
+.song-cover{
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.song-info{
+  width: 100%;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.song-name{
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+
+.song-writer{
+  margin-top: 5px;
+  font-size: 18px;
+  font-weight: 500;
+  color: rgb(190, 190, 190);
+}
+
+.responsive-images{
+  display: none;
+}
+
+.modal{
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-title{ 
+  width: 90%;
+  color:white;
+  font-family: "Dancing Script", cursive;
+  font-size: 38px;
+  text-align: center;
+  font-weight: bold;
+  word-spacing: 10px;
+}
+
+.modal-button{
+  margin-top: 50px;
+  width: 250px;
+  height: 80px;
+  border-radius: 10px;
+  font-family: "Dancing Script", cursive;
+  font-weight: bold;
+  background-color: #023a58;
+  font-size: 18px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 1200px){
+  .images .img{
+    width: 140px;
+    margin: 8px;
+  }
+}
+
+@media screen and (max-width: 1100px){
+  .images .img{
+    width: 125px;
+  }
+}
+
+
+@media screen and (max-width: 1000px) {
+
+  html{
+    min-height: 380vh;
+  }
+
+  .content{
+    padding-top: 30px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+  }
+
+  .images{
+    display: none;
+  }
+
+  .responsive-images{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+  }
+
+  .res-images{
+    width: 400px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .res-images .img{
+    width: 200px;
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+    border-radius: 10px;
+    margin: 20px 0;
+    image-orientation: from-image;
+  }
+
+}
+
+@media screen and (max-width: 450px) {
+  .player{
+    max-width: 400px;
+    width: 90%;
+    height: 550px;
+  }
+
+  .responsive-images{
+    margin-top: 20px;
+    width: 90%;
+    height: auto;
+  }
+
+  .res-images{
+    width: 100%;
+    height: auto;
+
+  }
+
+  .res-images .img{
+    width: 140px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .player{
+    width: 95%;
+    height: 500px;
+  }
+
+  .responsive-images{
+    width: 95%;
+    height: auto;
+  }
+
+  .res-images{
+    width: 100%;
+    height: auto;
+
+  }
+
+  .res-images .img{
+    width: 130px;
+  }
+}
